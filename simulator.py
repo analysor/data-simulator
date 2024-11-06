@@ -23,7 +23,7 @@ for _ in range(num_records):
         "media": random.choice(media_types),
         "language": random.choice(languages),
         "group": random.choice(groups),
-        "minute": random.randint(*minutes_range),
+        "minutes": random.randint(*minutes_range),
     }
     data.append(record)
 
